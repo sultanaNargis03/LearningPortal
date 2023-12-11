@@ -39,13 +39,13 @@ public class Register extends HttpServlet
 			}
 			else
 			{
-				response.sendRedirect("/MVCProject/failregister.html");
+				response.sendRedirect("/Learningportal/failregister.html");
 			}
 		}
 		else
 		{
 			System.out.println("Password "+password+" and "+"confirm Password "+confirmPassword+"not matching");
-			response.sendRedirect("/MVCProject/reregister.html");
+			response.sendRedirect("/Learningportal/reregister.html");
 		}
 	}
 

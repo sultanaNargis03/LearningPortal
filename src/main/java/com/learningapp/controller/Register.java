@@ -35,7 +35,7 @@ public class Register extends HttpServlet
 
 			if(row!=0)
 			{
-				response.sendRedirect("/MVCProject/login.html");
+				response.sendRedirect("/Learningportal/login.html");
 			}
 			else
 			{

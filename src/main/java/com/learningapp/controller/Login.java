@@ -40,7 +40,7 @@ public class Login extends HttpServlet
 		}
 		else
 		{
-			response.sendRedirect("/MVCProject/loginfail.jsp");
+			response.sendRedirect("/Learningportal/loginfail.jsp");
 		}
 	}
 }
